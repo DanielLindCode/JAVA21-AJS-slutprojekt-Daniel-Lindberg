@@ -1,7 +1,6 @@
-import { useState } from "react";
 import Product from "./Product";
 
-export default Store = (props) => {
+const Store = (props) => {
   const { products, addItem } = props;
 
   return (
@@ -12,3 +11,4 @@ export default Store = (props) => {
     </div>
   );
 };
+export default Store;

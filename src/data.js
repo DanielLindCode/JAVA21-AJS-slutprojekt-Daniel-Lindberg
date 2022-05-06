@@ -15,7 +15,7 @@ const data = {
     {
       id: "3",
       name: "Broken car",
-      price: 5,
+      price: 150,
       image: "https://picsum.photos/id/111/3008/2008",
     },
     {

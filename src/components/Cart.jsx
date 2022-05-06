@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function Cart(props) {
+const Cart = (props) => {
   const { cartItems, addItem, removeItem } = props;
+
   const itemsPrice = cartItems.reduce((a, c) => a + c.qty * c.price, 0);
   const totalPrice = itemsPrice;
+
   return (
     <aside className="block col-1">
       <h2>Cart Items</h2>
@@ -54,4 +56,5 @@ export default function Cart(props) {
       </div>
     </aside>
   );
-}
+};
+export default Cart;

@@ -1,11 +1,11 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 import data from "./data";
 import Store from "./components/Store";
 import Cart from "./components/Cart";
 import Login from "./components/Login";
 
-export default App = () => {
+const App = () => {
   const { products } = data;
   const [cartItems, setCartItems] = useState([]);
 
@@ -43,3 +43,13 @@ export default App = () => {
     </div>
   );
 };
+
+export default App;
+
+// json-server react-db.json --watch --port=5000
+
+// Vad har varit utmanande?
+// Vad har varit roligt?
+// Vad hade ni gjort annorlunda?
+
+//context - states

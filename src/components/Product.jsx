@@ -1,6 +1,6 @@
-import { useState } from "react";
+import React from "react";
 
-export default Product = (props) => {
+const Product = (props) => {
   const { product, addItem } = props;
 
   return (
@@ -16,3 +16,5 @@ export default Product = (props) => {
     </div>
   );
 };
+
+export default Product;
